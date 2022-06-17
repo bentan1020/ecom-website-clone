@@ -30,6 +30,7 @@ body {
     border: None;
     font-family: century, sans-serif;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .bigContainer {
