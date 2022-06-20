@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import HomeTop from '../components/HomeTop'
 
 const Home = () => {
   return (
     <div>
-        <Navbar></Navbar>
+        <HomeTop></HomeTop>
     </div>
+    
   )
 }
 

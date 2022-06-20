@@ -6,22 +6,21 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   height:80px;
-  background-color: black;
 `
 
 const Left = styled.div`
   flex:1;
-  padding-top: 30px;
-  padding-left: 75px;
+  padding-top: 45px;
+  padding-left: 65px;
 `
 
 const Right = styled.div`
   display: flex;
   flex:1;
-  padding-top: 30px;
+  padding-top: 45px;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 65px;
+  padding-right: 50px;
 `
 
 const Menu = styled.div`
@@ -33,7 +32,7 @@ const Button = styled.button`
   color: white;
   border: None;
   font-size: 15px;
-  padding: 15px 18px;
+  padding: 15px 25px;
   border-radius: 10px;
   cursor: pointer;
   font-weight: 2;
