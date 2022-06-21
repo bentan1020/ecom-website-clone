@@ -1,8 +1,8 @@
 import React from 'react'
-import Home from './webpages/Home'
-import Product from './webpages/Product'
-import Cart from './webpages/Cart'
-import Checkout from './webpages/Checkout'
+import Home from './webpages/HomePage/Home'
+import Product from './webpages/ProductPage/Product'
+import Cart from './webpages/CartPage/Cart'
+import Checkout from './webpages/CheckoutPage/Checkout'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App(){
