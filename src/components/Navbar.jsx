@@ -1,6 +1,7 @@
 import React from 'react'   
 import styled from 'styled-components'
-import logo from '../images/Logo.png'
+import logo from '../assets/Logo.png'
+import Product from '../webpages/Product'
 
 const Wrapper = styled.div`
   display: flex;
@@ -53,7 +54,7 @@ const Navbar = () => {
           </a> 
         </Menu>
 
-        <Menu><Button>Shop</Button></Menu>
+        <Menu><Button onClick={<Product></Product>}>Shop</Button></Menu>
 
       </Right>
 
