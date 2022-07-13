@@ -1,0 +1,110 @@
+.page{
+    background-color: rgb(242,245,246);
+}
+
+/* whole web page */
+.productPageHeader {
+    display:flex;
+}
+
+/* left side of the page */
+.customerBuy {
+    flex: 1;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.headerIntro{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.headerIntro h1{
+    font-family: century, sans-serif;
+    font-weight:75; 
+}
+
+/* affirm logo (within left side) */
+.payWithAffirm{
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    font-family: century, sans-serif;
+    font-weight:50; 
+}
+
+.payWithAffirm img{
+    height: 1.1em;
+    width: auto;
+    margin: 0.3rem;
+}
+
+#improveResilience {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    font-family: century, sans-serif;
+    font-weight:50;
+    font-size: 16px; 
+}
+
+/* shipping info  */
+.expectedShipping {
+    display:flex;
+
+    background-color: rgb(237,236,229);
+
+    font-family: century, sans-serif;
+    font-weight:50;
+    font-size: 15px; 
+}
+
+.expectedShippingSVG{
+    display: block;
+    margin: auto 15px;
+}
+
+.expectedShippingDesc{
+    flex: 1;
+}
+
+/* Product color options */
+.productOptions{
+    display: flex;
+    flex-direction: column;
+
+    font-family: century, sans-serif;
+    font-weight:50;
+    font-size: 15px; 
+}
+
+#productOptions-stealth-description{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.productOptions p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.productOptionsImages img{
+    float:left;
+    width: 75px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+/* right side of the page */
+.displayImages {
+    flex: 1;
+    flex-direction: flex-end;
+}
+
+.displayImages img {
+    width: 50vw;
+}
+

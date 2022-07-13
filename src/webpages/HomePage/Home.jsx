@@ -1,7 +1,6 @@
 import React from 'react'
 import background from "../../assets/Background.jpg"
 import Navbar from '../../components/Navbar/Navbar'
-import styled from 'styled-components'
 import HomeHeader from '../../components/HomeHeader/HomeHeader'
 
 const Home = () => {
@@ -11,7 +10,7 @@ const Home = () => {
       <Navbar></Navbar>
       <HomeHeader></HomeHeader>
       </div>
-      
+
   </div>
   )
 }

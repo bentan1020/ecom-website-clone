@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className='navbar'>
 
       <a href='/' className='brandLogo'>
-        <img src = {logo} width={140} height={42}></img>
+        <img src = {logo} width={140} height={42} alt='logo'></img>
       </a>
 
       <ul>
